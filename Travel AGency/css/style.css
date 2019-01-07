@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Merienda');
+@import url('https://fonts.googleapis.com/css?family=Viga');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* NOTE: Slide */
+
+.carousel-item img{
+  height: 100vh;
+}
+.innerSliderI {
+  background: #000000b5;
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  border: 0;
+  left: 0;
+
+  transform-origin: bottom left;
+  -ms-transform: skew(-10deg, 0deg);
+  -webkit-transform: skew(-10deg, 0deg);
+}
+/* .innerSliderI:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #000000b5;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+
+} */
+.innerSliderI h1{
+  color: orange;
+  padding-top:25%;
+  padding-left: 5%;
+  /* -ms-transform: skew(10deg, 0deg);
+  -webkit-transform: skew(10deg, 0deg); */
+  font-family: 'shahriarFavFont';
+  font-size: 2rem;
+
+
+
+
+}
+.innerSliderI p{
+  font-family: Viga;
+  padding: 45px;
+  /* -ms-transform: skew(10deg, 0deg);
+  -webkit-transform: skew(10deg, 0deg); */
+
+  color: white;
+}
+.innerSliderI a{
+  font-family: 'shahriarFavFont';
+  margin-left: 45px;
+  color: white;
+  border: 2px solid white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -ms-transform: skew(10deg, 0deg);
+  -webkit-transform: skew(10deg, 0deg);
+}
+.innerSliderI a:hover{
+  text-decoration: none;
+  background: orange;
+  color:black;
+}
+
+/* NOTE: Navigation style */
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 0 ;
+
+  background: transparent;
+  padding-right: 100px;
+ /* background: #ccc1c1; */
+  box-sizing: border-box;
+  z-index: 2;
+
+}
+
+.colorMenu{
+
+  background: black;
+
+
+}
+.colorMenu:hover{
+
+  background: black;
+
+
+}
+
+nav ul{
+  position: relative;
+	float:right;
+  padding: 0;
+
+  margin: auto;
+}
+nav ul li{
+
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a{
+
+  display: block;
+  color: white;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 7.5px;
+  font-family:'Merienda', cursive;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  transition: .6s;
+  color: black;
+
+
+
+}
+/* NOTE: Menu button */
+.menuBtDiv{
+
+  width: 100%;
+  box-sizing: border-box;
+  display: none;
+  padding: 20px;
+  padding-bottom: 35px;
+  padding-top: 8px;
+
+}
+
+.mButton{
+  color: white;
+  float: right;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+.show{
+  display: block;
+
+}
+
+.navButton{
+background:#004a80;text-align:center;color:white;font-size:17px;
+padding: 2px 5px;
+border-radius: 7px;
+font-family:'Righteous', cursive;
+margin-right: 5px;
+}
+
+.navButton2{
+background:#ed242e;text-align:center;color:white;font-size:17px;
+padding: 2px 5px;
+border-radius: 7px;
+font-family:'Righteous', cursive;
+}
+/* NOTE: End menu */
+
+/* NOTE: End slide */
+
+/* .headerContainer{
+  background: url(images/pexels-photo-841286.jpeg) no-repeat;
+  background-size:cover;
+  height: 100vh;
+}
+
+nav{
+  background: #1fc0d457;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom-right-radius: 6px;
+border-bottom-left-radius: 9px;
+
+
+}
+
+
+
+nav img{
+
+
+}
+nav h6{
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+
+  color: white;
+}
+nav i {
+    padding-top: 5px;
+} */
+
+@font-face {
+  src: url('font/ufonts.com_avant-g-bold.ttf');
+  font-family: 'shahriarFavFont';
+}
+
+.hero{
+    font-size: 65px;
+  font-family: 'shahriarFavFont';
+  margin-top: 32%;
+  text-shadow: 2px 2px 9px black;
+  color: white;
+}
+
+/* NOTE: Form */
+.formSection{
+    margin-top: 14%;
+
+}
+form{
+  background: #161616ab;;
+  /* background: #00000080; */
+  padding: 10px;
+  width: 350px;
+  margin-left: 22%;
+  border-radius: 8px;
+}
+form label{
+  color: white;
+  font-family: "shahriarFavFont";
+}
+input {
+  width: 230px;
+  background:transparent;
+  border:2px solid white;
+  border-radius:6px;
+  margin: 10px;
+  color: white;
+}
+input:hover{
+    box-shadow: 2px 2px 4px yellow;
+}
+
+.submitBtn{
+    font-family: "shahriarFavFont";
+  margin-top: 35px;
+  margin-bottom: 25px;
+  padding:10px;
+
+  text-align: center;
+  color: white;
+  background:transparent;
+  border:2px solid white;
+  border-radius:6px;
+}
+.submitBtn:hover{
+    background: #1fc0d457;
+}
+
+/* NOTE: Prcing  */
+.priceTitleBg{
+  margin-top: 65px;
+  font-family: 'Merienda', cursive;
+  font-size: 45px;
+  color:black;
+  text-align: center;
+}
+.priceTitleBg::before{
+  content: '';
+  width: 200px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top:0;
+  bottom: 0;
+}
+
+.prcingHeaderP{
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.onePr{
+  background: #dbc88e;
+  border-radius: 9px;
+  box-shadow: 2px 2px 4px #d7cfcc;
+}
+.onePr img{
+  width: 100%;
+border-radius: 9px;
+  background-size: cover;
+  height: 250px;
+}
+
+.textPricingIn {
+  color: white;
+  margin-top: 25px;
+  width:300px;display:flex;
+  text-align: right;
+}
+
+/* NOTE: Tour */
+
+.wrapperDivofTour img{
+  width: 100%;
+  height: 250px;
+}
+
+.tours h1{
+  margin-top:45px;
+  font-family:'san-serif';
+  color: black;
+  font-family: 'Viga', sans-serif;
+  font-size: 43px;
+  text-align: center;
+}
+
+.textOfTour p{
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.smallBarTr{
+    height: 2px;
+    margin: 0 auto;
+    width: 60%;
+    background: #dbbd60;
+}
+
+.TourIneerbox{
+  position: absolute;
+  width:93%;
+  color:white;
+  height: 250px;
+  top:0;
+  bottom:0;
+  background: #00000094;
+}
+.checked{
+  color:orange;
+}
+.linkInbox{
+  position: absolute;
+  padding: 9px;
+    bottom: 0;
+    color: white;
+    font-size: 22px;
+    font-family: 'shahriarFavFont';
+    text-align: center;
+}
+.linkInbox:hover{
+  text-decoration: none;
+  color:#dbc88e;
+}
+.linkInLine{
+  position: absolute;
+
+    bottom: -12px;
+    color: black;
+    right: 0;
+    color: #e78f40;
+    font-size: 19px;
+    padding-right: 9px;
+    text-align: center;
+}
+/* NOTE: Counter portion */
+
+.counter{
+  width: 100%;
+  display: block;
+}
+
+.width25{
+  width: 25%;
+  float: left;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+
+  padding: 25px;
+
+}
+.width25 h2{
+  font-size: 65px;
+}
+.width25 p{
+  font-size: 35px;
+  font-family: fantasy;
+}
+
+.marketingN{
+  width: 100%;
+}
+
+
+/* NOTE: HexaGon */
+
+.boxPadding{
+  padding: 50px;
+  background: #ebebeb;
+  width: 70%;
+
+  margin: 0 auto;
+  text-align: center;
+  margin-top:20%;
+  border-radius: 9px;
+  box-shadow: 1px 1px 3px #ebebeb;
+}
+.textInDummy:before{
+  content: '';
+  width: 200px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top:0;
+  display: inherit;
+  z-index: 1;
+  bottom: 10px;
+ transform: rotate(-15deg);;
+}
+.textInDummy::after{
+  content: '';
+  width: 200px;
+  height: 2px;
+  background: black;
+  position: absolute;
+transform: rotate(-15deg);
+  right: 0;
+  bottom:0;
+}
+    #hexagon {
+      margin: 0 auto;
+      margin-top:20%;
+      width: 100px;
+      height: 55px;
+      background: black;
+      position: relative;
+      color: white;
+    }
+    #hexagon:before {
+      content: "";
+      position: absolute;
+      top: -25px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 25px solid black;
+    }
+    #hexagon:after {
+      content: "";
+      position: absolute;
+      bottom: -25px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 25px solid black;
+    }
+
+
+/* NOTE: Team */
+
+.innerTeam img{
+  width: 100%;
+
+}
+
+.imageGuide{
+
+  background: url("images/guide (1).jpeg");
+  width: 100%;
+  height: 560px;
+
+}
+.imageGuide2{
+  background: url("images/guide (2).jpeg");
+  background-size: cover;
+}
+.imageGuide3{
+  background: url("images/guide (3).jpeg")center center;
+  background-size: cover;
+
+}
+.NameBarGuide{
+
+  width:80%;
+  height: 70px;
+  padding: 10px;
+  font-size: 35px;
+  background: #8d895c;
+  font-family: "shahriarFavFont";
+  color: white;
+
+  margin: 0 auto;;
+  text-align: center;
+
+  margin-top: -45px;
+  bottom:0;
+  z-index: 2;
+}
+.NameBarGuide h2{
+
+}
+
+/* NOTE:  */
+.parent {
+
+overflow: hidden;
+    position: relative;
+	cursor: pointer;
+
+}
+
+.child {
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.parent:hover .child, .parent:focus .child {
+
+    transform: scale(1.2);
+}
+
+/* NOTE:  */
+
+.innerTeamHover{
+  color: white;
+display: none;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  font-size: 45px;
+  text-align: center;
+  padding: 45px;
+  top:0;
+  z-index: 1;
+  bottom: 0;
+  background: #000000c2;
+}
+
+/* NOTE: Footer */
+footer{
+  background: #323231;
+}
+.footerForm {
+  margin: 0 auto;
+  width: 100%;
+  background: transparent;
+  margin: 0 auto;
+  text-align: center;
+}
+.inputEMail{
+  width: 60%;
+  height: 55px;
+  color: white;
+  font-size: 20px;
+
+}
+.submitB{
+  width: 100px;
+  height: 55px;
+  font-family: 'shahriarFavFont';
+  color: white;
+  font-size: 20px;
+}
+
+.lowerSide{
+  background: #3e3e39;
+}
+
+.innerFooter h5{
+  color: white;
+  font-family: 'shahriarFavFont';
+  font-size: 25px;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.innerFooter li{
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+}
+.addressIn h3{
+    color: white;
+    font-family: 'shahriarFavFont';
+    font-size: 35px;
+    text-align: center;
+}
+.addressIn p{
+  color: white;
+  font-family: sans-serif;
+      font-size: 15px;
+      text-align: center;
+}
+
+.Partner{
+  color: White;
+  text-align: center;
+  background: #3e3e39;
+}
+
+
+@media (max-width:720px) {
+
+  .menuBtDiv{
+     display: block;
+
+
+   }
+   .mButton{
+     padding-left: 10px;
+     padding-right: 10px;
+     border: 1px solid white;
+   }
+   .mButton:hover {
+     color: #ff5252;
+     transition: .5s;
+
+   }
+
+
+   nav{
+
+     padding: 0px;
+
+   }
+   nav ul{
+
+     float: none;
+     display: none;
+     padding: 6px;
+   }
+     nav ul li{
+       display: block;
+
+     }
+   nav ul li a{
+     padding: 10px;
+     text-align: center;
+   }
+   nav ul li a.active,
+   nav ul li a:hover{
+     background: #c9222a;
+     color: black;
+
+   }
+   .navButton{
+       text-align: center;
+   margin-left: 30%;
+
+
+   }
+
+   .navButton2{
+
+    text-align: center;
+   }
+
+  /* NOTE: End menu */
+  .carousel-item img{
+    height: 720px;
+  }
+  .innerSliderI{
+    ms-transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+        width: 70%;
+  }
+  .innerSliderI p {
+    font-family: Viga;
+    padding: 10px;
+    color: white;
+}
+}
