@@ -246,4 +246,8 @@ $('.boxDesign').hover(function(){
       $('.dealImg').addClass('bounceIn delay-.9s');
       $('.mm').addClass('bounceInRight delay-1s');
 }, { offset: '100%'});
+        
+              $(".doerImg").waypoint(function() {
+              $('.doerImg').addClass('jello delay-1s');
+}, { offset: '100%'});
 });
