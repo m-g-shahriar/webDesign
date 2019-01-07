@@ -1,0 +1,1056 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a:hover{
+  text-decoration: none;
+}
+hr {
+   margin-top: 0rem;
+   margin-bottom: 0rem;
+}
+
+.container-fluid {
+
+
+  padding-left: 0px;
+}
+
+/* NOTE: End defalt remove process */
+
+
+.main_header{
+  background: url(images/header-bg.jpg) fixed;
+  /* background: url(images/background.png) fixed; */
+  background-size: cover;
+  height: 100vh;
+
+
+}
+.haderWrapper{
+  text-align: center;
+}
+.headerTitle{
+  color: #ffffff;
+  font-family: "shahriarFontfav",cursive;
+
+  font-size: 4.5rem;
+  text-shadow: 1px 1px 1.5px #737070;
+}
+
+.headerTitle a{
+  text-decoration: none;
+  color: #ffffff;
+  /* color: #ed242e; */
+   pointer-events: none;
+}
+.haderWrapper h5{
+  padding-top: 18%;
+  font-family: "shahriarFontfav";
+  font-size: 26px;
+  color: #a09e84;
+}
+.show{
+  display: block;
+
+}
+
+@font-face {
+  src: url("font/ufonts.com_avant-g-bold.ttf");
+  font-family: "shahriarFontfav";
+}
+.headerButton{
+  background: #ed242e;
+
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 38px;
+  padding-right:38px;
+  font-size: 28px;
+  font-family: "shahriarFontfav";
+  color: white;
+  border-radius: 6px;
+  box-shadow: 2px 4px #ccc1c1;
+}
+/* NOTE: Navigation style */
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 0 ;
+  padding-right: 100px;
+ /* background: #ccc1c1; */
+  box-sizing: border-box;
+  z-index: 2;
+
+}
+
+.colorMenu{
+
+  background: black;
+
+
+}
+.colorMenu:hover{
+
+  background: black;
+
+
+}
+
+nav ul{
+  position: relative;
+	float:right;
+  padding: 0;
+
+  margin: auto;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a{
+
+  display: block;
+  color: white;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 7.5px;
+  font-family:'Righteous', cursive;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  transition: .6s;
+  color: black;
+
+
+
+}
+/* NOTE: Menu button */
+.menuBtDiv{
+
+  width: 100%;
+  box-sizing: border-box;
+  display: none;
+  padding: 20px;
+  padding-bottom: 35px;
+  padding-top: 8px;
+
+}
+
+.mButton{
+  color: white;
+  float: right;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+.show{
+  display: block;
+
+}
+
+.navButton{
+background:#004a80;text-align:center;color:white;font-size:17px;
+padding: 2px 5px;
+border-radius: 7px;
+font-family:'Righteous', cursive;
+margin-right: 5px;
+}
+
+.navButton2{
+background:#ed242e;text-align:center;color:white;font-size:17px;
+padding: 2px 5px;
+border-radius: 7px;
+font-family:'Righteous', cursive;
+}
+/* NOTE: End menu */
+
+
+/* NOTE: Main information sction */
+
+.whatWeprovideImg{
+  padding-top: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+.whatWeprovideImg img{
+  width: 540px;
+  height: 80px;
+}
+
+
+
+.boxSectionOne{
+  padding-top: 50px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+
+
+}
+.boxDesign{
+  margin: 0 auto;
+  text-align: center;
+  width: 227px;
+  height: 369px;
+  box-shadow: 3px 0px 4px 1px #00000066;
+  border-radius: 6px;
+
+}
+.boxDesign h3{
+  font-family: 'shahriarFontfav',cursive;
+  font-size: 29px;
+  color: #323433;
+  padding-top: 27%;
+}
+.boxDesigni1 i{
+  color: #40b96d;
+  padding: 10px;
+  font-size: 45px;
+}
+.boxDesigni2 i{
+  color: #e5d57c;
+  padding: 10px;
+  font-size: 45px;
+}
+.boxDesigni3 i{
+  color: #a6cff5;
+  padding: 10px;
+  font-size: 45px;
+
+}
+.boxDesigni4 i{
+  color: #e53535;
+  padding: 10px;
+  font-size: 45px;
+
+}
+.boxDesign p{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+}
+.bluebar{
+  position: inherit ;
+  margin-top: -70px;
+  height: 120px;
+  /* background: #00aeef; */
+  background: #17161c;
+}
+
+.boxHoverIconRotate{
+
+    animation: rotate 2s infinite linear;
+
+}
+
+@keyframes rotate {
+  from {
+               -webkit-transform: rotate(0deg);
+             }
+             to {
+               -webkit-transform: rotate(359deg);
+             }
+
+
+}
+.boxHoverIconWidth{
+  animation: widthChange 2s infinite linear;
+}
+
+@keyframes widthChange {
+
+  0%{
+      font-size: 45px;
+      /* font-size: 0px; */
+  }
+  50%{
+      font-size: 15px;
+  }
+  70%{
+    font-size: 25px;
+  }
+  100%{
+    font-size: 45px;
+    /* font-size: 45px; */
+  }
+
+}
+
+
+
+/* NOTE: Why you should chooseus section */
+.firstDivofWhy{
+  /* background: #e5e5e5; */
+  /* background: url('images/whyUShouldChsUSBk.png') center center; */
+  margin: 0 auto;
+}
+.firstDivofWhy img{
+
+
+      float: right;
+}
+.firstDivofWhy h6{
+  margin: 0 auto;
+
+  box-shadow: 2px 2px 4px #000000;
+
+  color : white;
+  font-family: 'shahriarFontfav';
+  font-size: 65px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 45%;
+}
+.secondDivofWhy{
+  padding: 45px;
+}
+.secondDivofWhy p{
+  font-size: 19px;
+}
+
+.linesCircle{
+
+	width:100%;
+	position:relative;
+			height : 160px;
+
+		padding:10px;
+}
+
+.linesCircle h1{
+  font-family: "shahriarFontfav";
+  font-size: 24px;
+  padding-left:50px;
+
+}
+.linesCircle p{
+  font-family: cursive;
+  padding-left:50px;
+}
+
+
+.linesCircle:before{
+
+content: attr(data-count);
+
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 #d6dce1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #566c81;
+    transition: color, background-color .1s ease-in;
+}
+
+.linesCircle:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    z-index: 1;
+    background-color: #f7a63d;
+    width: 3px;
+		height: 100%;
+}
+
+
+.linesCircleLast{
+margin-top: -35px;
+	width:100%;
+	position:relative;
+			height : 5px;
+
+		padding:10px;
+}
+.linesCircleLast:before{
+
+content: attr(data-count);
+
+  display: inherit;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 #d6dce1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #566c81;
+    transition: color, background-color .1s ease-in;
+}
+
+.linesCircleLast:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    z-index: 1;
+    background-color: #f7a63d;
+    width: 3px;
+		height: 100%;
+}
+
+/* NOTE: ENd border section */
+
+
+/* NOTE:  news later */
+
+
+/* .simple-subscription-form {
+  background:url('images/backgroundForNewsLater.png')center center;
+  background-size: cover;
+  text-align: center;
+
+  color: black;
+  height: 360px;
+  padding: 2rem;
+
+  border-radius: 0;
+}
+.simple-subscription-form .button {
+  margin-bottom: 0;
+  font-family: 'shahriarFontfav';
+  color: black;
+  text-decoration: none;
+  border-radius: 0 0 0 0;
+  text-align: center;
+  background: #245276;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.simple-subscription-form .button:hover{
+  text-decoration: none;
+  color: white;
+}
+.input-group{
+      display: flex;
+    padding-left: 34%;
+    text-align: center;
+}
+.input-group span{
+  padding: 2px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  background: #606060;
+} */
+
+
+/* NOTE: Faw and how it works */
+
+/* NOTE: Button work */
+.buttonOfHowFaq{
+  background: #004a80;
+  padding: 7px;
+}
+.buttonDivFaq{
+  border: 1px solid white;
+  border-radius: 4px;
+  text-align: center;
+
+}
+
+.buttonOfHowFaq a{
+    width: 100%;
+    padding: 2px 7px 2px 7px;
+      color: white;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+/* NOTE: Procedure */
+.mainDivofProce h4{
+  text-align:center;font-family:'shahriarFontfav';font-size:45px;margin-top:55px;
+}
+.firstDRowofProcedure{
+  margin:55px;margin-bottom:80px;
+}
+.firstDRowofProcedure P{
+  padding-top:15px;width:500px
+}
+.firstDRowofProcedure p span{
+  padding-bottom:5px;font-family:'shahriarFontfav';font-size:35px;
+}
+
+
+.iconofProcedure{
+float: left;
+    width: 140px;
+    margin: 20px;
+    height: 140px;
+}
+    .containerofPreced p{
+      font-size: 19px;
+    }
+
+
+
+.firstFaq .row{
+  padding-right:55px;padding-left: 55px;margin-top:65px;
+
+}
+.firstFaq h6{
+  text-align:center;font-family:'shahriarFontfav';font-size:45px;padding-top:25px;
+}
+
+.firstFaq img{
+  width:200px;height:200px;
+}
+.secondFaq{
+  padding-right:55px;padding-left: 55px;
+  margin-top: 35px;margin-bottom: 45px;
+}
+.secondFaq img{
+  width:200px;height:200px;
+}
+.secondFaqDiv{
+
+}
+
+.thiredFaq{
+  padding-right:55px;padding-left: 55px;
+}
+.thiredFaq img{
+  width:200px;height:200px;
+}
+
+  .faqText{
+    padding-left:30px;font-size:18px;
+  }
+  .faqText span{
+    font-family:'Righteous';font-size:35px;
+  }
+
+/* NOTE: Pricing  */
+
+.pricingTitle{
+  background:url(images/pricingBackground.jpeg) center center; background-size:cover;padding:25px;display:inherit;color:white;height:400px;
+}
+.pricingTitle p{
+  padding-top: 220px;text-align:center;padding-bottom:15px;font-size:19px;
+}
+
+.smallBar{
+  background:transparent;color:#9934bf; width:100%;height:60px;padding:8px;font-size:30px;margin-bottom:10px;box-shadow: 2px 2px 4px #292929;text-align:center;
+
+    margin-top:55px;
+
+}
+
+.smallPricingBox{
+  width: 240px;
+
+  background: white;
+  box-shadow: 2px 2px 3px #29292975;
+
+  border-radius: 5px;
+
+}
+
+.smallPricingBox:hover{
+
+
+
+  box-shadow: 4px 4px 8px #29292975;
+
+
+
+}
+
+
+.SM1 h5{    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  text-align:center;
+  margin-bottom: 0rem;
+  color: white;
+    background:#2b3d51;padding:15px;
+    font-size: 19px;
+}
+
+.SM2 h5{    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  text-align:center;
+  margin-bottom: 0rem;
+  color: white;
+    background:#f59c00;padding:15px;
+    font-size: 19px;
+}
+
+.SM3 h5{    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  text-align:center;
+  margin-bottom: 0rem;
+  color: white;
+    background:#d55400;padding:15px;
+    font-size: 19px;
+}
+.SM4 h5{    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  text-align:center;
+  margin-bottom: 0rem;
+  color: white;
+    background:#5f4870;;padding:15px;
+    font-size: 19px;
+}
+
+
+.pricingText{
+  background:#42576c;
+  color:white;
+  width: 100%;
+  height: 150px;
+  padding-top: 18%;
+  text-align:center;
+}
+.SM2 .pricingText{
+  background:#f3c500;
+  color:white;
+  width: 100%;
+  height: 150px;
+  padding-top: 18%;
+  text-align:center;
+}
+.SM3 .pricingText{
+  background:#e98b2b;
+  color:white;
+  width: 100%;
+  height: 150px;
+  padding-top: 18%;
+  text-align:center;
+}
+.SM4 .pricingText{
+  background:#84619f;
+  color:white;
+  width: 100%;
+  height: 150px;
+  padding-top: 18%;
+  text-align:center;
+}
+
+
+.ListofP{
+  padding: 10px;
+  padding-left: 15px;
+}
+.ListofP i{
+  color: #5ecf69;
+}
+.ListofP a{
+  background: #5ecf69;
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  display: block;
+
+}
+
+.ListofP a:hover{
+  background: #48a855;
+}
+
+
+.smallPricingBox p{
+  font-size: 19px;
+}
+.checked{
+  color: orange;
+}
+.textofPrc{
+  margin-top: -1rem;
+}
+
+/* NOTE: Pricing */
+
+
+/* NOTE: Counter */
+
+.counter{
+  width: 100%;
+  display: flex;
+}
+
+.width25{
+  width: 25%;
+  float: left;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+
+  padding: 25px;
+
+}
+.width25 h2{
+  font-size: 65px;
+}
+.width25 p{
+  font-size: 35px;
+  font-family: fantasy;
+}
+
+.marketingN{
+  width: 100%;
+}
+
+
+/* NOTE:End Counter */
+/* NOTE: Deal */
+
+.innerDeal{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.innerDeal img{
+
+}
+.innerDeal a{
+  font-family: shahriarFontfav;
+  font-size: 19px;
+  border: 1px solid black;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.innerDeal a:hover{
+  font-family: cursive;
+  font-weight: 15px;
+}
+
+
+
+
+
+/* NOTE: Footer */
+footer{
+  background: #323231;
+  width: 100%;
+}
+.emailSubscription{
+  padding: 25px;
+}
+.footerForm {
+  margin: 0 auto;
+  width: 100%;
+
+  margin: 0 auto;
+  text-align: center;
+}
+.inputEMail{
+  width: 60%;
+  height: 55px;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  background: transparent;
+}
+.submitB{
+  width: 100px;
+  height: 55px;
+  font-family: 'shahriarFavFont';
+  color: black;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 6px;
+  color:white;
+}
+
+.lowerSide{
+  background:#17252f;
+}
+
+.innerFooter h5{
+  color: white;
+  font-family: 'shahriarFavFont';
+  font-size: 25px;
+  padding-top: 35px;
+  /* text-align: center; */
+}
+
+.innerFooter li{
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: bold;
+  /* text-align: center; */
+  padding-left: 35px;
+}
+
+/* NOTE: End footer */
+
+
+/* NOTE: ------------------------------------------------------------------ */
+/* NOTE: Responsiv */
+@media (max-width:720px) {
+
+.logoOf{
+  padding: 12px;
+  top: 0;
+  margin-top:-22px;
+}
+  .menuBtDiv{
+     display: block;
+     margin-top: -65px;
+
+   }
+   .mButton:hover {
+     color: #ff5252;
+     transition: .5s;
+
+   }
+
+   nav{
+
+     padding: 0px;
+
+   }
+   nav ul{
+
+     float: none;
+     display: none;
+     padding: 6px;
+   }
+     nav ul li{
+       display: block;
+
+     }
+   nav ul li a{
+     padding: 10px;
+     text-align: center;
+   }
+   nav ul li a.active,
+   nav ul li a:hover{
+     background: #c9222a;
+     color: black;
+
+   }
+   .navButton{
+       text-align: center;
+   margin-left: 30%;
+
+
+   }
+
+   .navButton2{
+
+    text-align: center;
+   }
+
+  /* NOTE: End menu */
+
+  .headerTitle{
+    color: white;
+    font-family: "shahriarFontfav",cursive;
+
+    font-size: 55px;
+    text-shadow: 1px 1px 1.5px #737070;
+  }
+  .haderWrapper h5{
+    padding-top: 58%;
+
+    font-family: "shahriarFontfav";
+    font-size: 17px;
+    color: #6a6464;
+  }
+
+/* NOTE: information section */
+.whatWeprovideImg img{
+  width: 100%;
+
+}
+
+.boxSectionOne{
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.boxDesign{
+
+  margin-bottom: 10px;
+
+
+}
+
+/* NOTE: Why choose us */
+.firstDivofWhy{
+    padding: 45px;
+}
+.firstDivofWhy h6{
+
+  margin-top: 10%;
+
+}
+.linesCircle{
+
+	width:100%;
+	position:relative;
+			height : 300px;
+
+		padding:10px;
+}
+.linesCircle:nth-child(2){
+
+	width:100%;
+	position:relative;
+			height : 260px;
+
+		padding:10px;
+}
+.linesCircle:nth-child(4){
+
+	width:100%;
+	position:relative;
+			height : 200px;
+
+		padding:10px;
+}
+
+
+/* NOTE: Procedure */
+
+.firstDRowofProcedure{
+  margin:5px;margin-bottom:10px;
+}
+.firstDRowofProcedure P{
+  padding-top:15px;width:100%;
+}
+.firstDRowofProcedure p span{
+  padding-bottom:5px;font-family:'shahriarFontfav';font-size:27px;
+}
+.mainDivofProce{
+text-align:center;font-family:'shahriarFontfav';font-size:35px;margin-top:45px;
+}
+
+.iconofProcedure{
+float: none;
+  margin: 0 auto;
+    width: 140px;
+
+    height: 140px;
+}
+
+
+
+/* NOTE: FirstDivof why */
+.firstDivofWhy img{
+
+      text-align: center;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      float: none;
+}
+
+/* NOTE: FAQ */
+.firstFaq h6{
+  font-size:35px;padding-top:25px;
+}
+.firstFaq .row{
+  padding-right:0px;padding-left: 0px;margin-top:65px;
+  text-align: center;padding-bottom: 15px;
+  margin: 0 auto;
+
+}
+.secondFaq{
+  padding-right:0px;padding-left: 0px;
+  margin-top: 35px;padding-bottom: 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+.thiredFaq{
+  padding-right:0px;padding-left: 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+.faqText span{
+  font-family:'Righteous';font-size:27px;
+}
+
+/* NOTE: Priicng */
+
+.smallBar{
+  background:transparent;color:#9934bf; height: 100px;width:100%;padding:8px;font-size:25px;margin-bottom:25px;box-shadow: 2px 2px 4px #292929;text-align:center
+}
+
+.pricingTitle{
+  background: url(images/pricingBackground_mmobile.jpeg) center center no-repeat;
+  background-size:cover;
+}
+.pricingTitle p{
+  padding-top: 150px;
+}
+.smallPricingBox{
+
+  width: 86%;
+  padding-bottom: 20px;
+  background: transparent;
+  box-shadow: 2px 2px 4px #292929;
+  text-align:center;
+  margin: 0 auto;
+}
+
+/* NOTE: Counter */
+.counter{
+  width: 100%;
+  display: block;
+}
+.width25{
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+
+  padding: 25px;
+
+}
+
+/* NOTE: Deal */
+.innerDeal img{
+  width: 100%;
+}
+
+/* NOTE: Footer */
+.innerFooter h5{
+
+text-align: center;
+}
+
+.innerFooter li{
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: bold;
+text-align: center;
+  padding-left: 0px;
+}
+
+}
