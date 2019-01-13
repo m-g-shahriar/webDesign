@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.navbar {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.bg-dark {
+    background-color: #484c506e!important;
+}
+.sliderImageBk{
+  height: 100vh;
+}
+.sliderImgText{
+
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.innerImgSLide{
+
+  float: right;
+}
+.textLeft h1{
+  font-family: sans-serif;
+  color: white;
+  padding-left: 9%;
+  margin-top: 25%;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.textLeft p{
+  color: white;
+  padding-left: 9%;
+  font-size: 18px;
+    margin-bottom: 9%;
+}
+.textLeft a{
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border: 2px solid white;
+    text-decoration: none;
+    margin-left: 9%;
+    font-size: 17px;
+
+    color: white;
+}
+
+
+
+
+@media (max-width:720px) {
+  .mainLogo{
+    width:130px;
+    height: 60px;
+  }
+  .sliderImageBk{
+
+  }
+
+
+  .textLeft h1{
+    font-family: sans-serif;
+    color: white;
+    padding-left: 9%;
+    margin-top: 25%;
+      font-weight: bold;
+      font-size: 25px;
+  }
+  .textLeft p{
+    color: white;
+    padding-left: 9%;
+    font-size: 18px;
+      margin-bottom: 5%;
+
+  }
+
+  .innerImgSLide {
+    display: inherit;
+      padding-top: -150px;
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+          margin-top: 0px;
+      height: 400px;
+      margin-top: -60px;
+
+  }
+
+
+}
